@@ -1,0 +1,132 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+.App {
+  text-align: center;
+}
+
+input {
+  padding: 8px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+}
+
+
+.todo-card {
+  background: rgba(255, 255, 255, 0.2); 
+  border-radius: 16px;
+  padding: 20px;
+  width: 90%;
+  max-width: 400px;
+  backdrop-filter: blur(10px); 
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3); 
+  text-align: center;
+  color: #fff;
+}
+
+.todo-card h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #fff;
+}
+
+.todo-card input {
+  display: block;
+  margin: 10px auto; 
+  padding: 10px;
+  width: 90%;
+  max-width: 100%;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  background: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  font-size: 16px;
+}
+
+.todo-card button {
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.4);
+  color: #333;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.todo-card button:hover {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.todo-card ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.todo-card li {
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo-card li button {
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 4px 8px;
+  border-radius: 4px;
+}
